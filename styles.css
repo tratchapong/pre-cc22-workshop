@@ -38,6 +38,8 @@ header .container {
   padding-inline: 4px;
 }
 
+
+
 .name {
   /* background-color: pink; */
   place-self: end start;
@@ -230,3 +232,97 @@ hr.thin {
   margin-block : 8px;
 }
 
+@media(max-width: 800px) {
+  header {
+    height: 10%;
+  }
+  header .container {
+    background-color: aliceblue;
+    grid-template-columns: 1fr; 
+  }
+  .name {
+    place-self: center;
+    text-align: center;
+  }
+  .menu {
+    display: none;
+  }
+
+  #page1 {
+    padding-top: 8px;
+    height: auto;
+  }
+
+  #page1 .container {
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    min-height: 83%;
+  }
+  .left {
+    width: 50%;
+    margin: auto;
+  }
+  .left img{
+    width: 100%;
+  }
+  .right {
+    padding-top: 8px;
+    text-align: center;
+  }
+  .right hr {
+    display: none;
+  }
+
+  .right p {
+    margin: 8px auto;
+  }
+
+  .skill-list {
+    margin: 8px auto;
+  }
+  #page2 {
+    margin-top: 16px;
+    font-size: smaller;
+  }
+
+  #page2 .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  #page2 hr {
+    margin: auto;
+  }
+  #page2 ul {
+    text-align: left;
+    list-style: none;
+  }
+  #page2 li {
+    padding-left: 20px;
+    gap: 8px;
+  }
+  #page2 li:nth-child(even){
+    color: slateblue;
+  }
+
+  footer {
+    height: 7%;
+  }
+  footer .container {
+    grid-template-columns: 1fr;
+    padding-bottom: 0;
+    background-color: aliceblue;
+    border: 1px solid #eee;
+  }
+  .copyright {
+    display: none;
+    padding-bottom: 0;
+    
+  }
+  .contact {
+    place-self: center;
+    font-size: 32px;
+    
+  }
+}
