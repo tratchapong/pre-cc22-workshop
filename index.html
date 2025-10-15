@@ -1,70 +1,136 @@
+<!-- Resources -->
 <!-- https://www.wix.com/website-template/view/html/1668 -->
+<!-- https://resumeworded.com/full-stack-developer-resume-examples -->
+<!-- https://chatgpt.com/share/68ef8711-9298-800a-bcea-55cda9697590 -->
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-	integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-	crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./styles.css">
   <title>Codecamp Thailand Resume workshop</title>
 </head>
+
 <body>
   <header>
-	<div class='container'>
-		<div class='name'>
-			<h2>Jenny Codecamp</h2>
-      <p>Full-stack Developer</p>
-		</div>
-		<div class='menu'>
-			<nav>
-				<a>Home</a>
-				<a>Resume</a>
-				<a>Contact</a>
-			</nav>
-		</div>
-	</div>
-</header>
+    <div class='container'>
+      <div class='name'>
+        <h2>Jenny Codecamp</h2>
+        <p>Full-stack Developer</p>
+      </div>
+      <div class='menu'>
+        <nav>
+          <a href="#page1">Home</a>
+          <a href="#page2">Resume</a>
+          <!-- <a>Contact</a> -->
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- Page 1 -->
 
-<main>
-	<div class='container'>
-		<div class='left'>
-			<img src='https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg' >
-		</div>
-			<div class='right'>
-				<h3>Recent Roles</h3>
-				<hr>
-				<p>I am a versatile full-stack developer specializing in creating robust, scalable, and user-centric web applications. With
-				a strong command of both front-end and back-end technologies.</p>
-				<h3>My skills</h3>
-				<hr>
-        <div class='skill-list'>
-          <button>HTML</button>
-          <button>CSS</button>
-          <button>Javascript</button>
-          <button>Typescript</button>
-          <button>React.js</button>
-          <button>Node.js</button>
-          <button>MySQL</button>
-          <button>Docker</button>
+  <main>
+    <section id="page1">
+      <div class='container'>
+        <div class='left'>
+          <img src='https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg'>
         </div>
-			</div>
-		</div>
-</main>
+        <div class='right'>
+          <h3>Recent Roles</h3>
+          <hr>
+          <p>I am a versatile full-stack developer specializing in creating robust, scalable, and user-centric web
+            applications. With a strong command of both front-end and back-end technologies.</p>
+          <h3>My skills</h3>
+          <hr>
+          <div class='skill-list'>
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>Javascript</button>
+            <button>Typescript</button>
+            <button>React.js</button>
+            <button>Node.js</button>
+            <button>MySQL</button>
+            <button>Git / Github</button>
+            <button>Docker</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Page 2 -->
+    <section id="page2">
+      <div class="container">
+        <div class="work-exp">
+          <h2>Work Experience</h2>
+          <hr class="thick">
+          <h3 class="company-name">Codecamp Corp. — Bangkok, Thailand</h3>
+          <h4 class="role">Full-stack Developer /
+            <span class="duration">( Jan 2022 - present )</span>
+          </h4>
+          <ul>
+            <li>Developed and maintained scalable web applications using React.js, Node.js, and Express.</li>
+            <li>Designed and optimized RESTful APIs serving over 50k daily requests with MongoDB and PostgreSQL
+              backends.</li>
+            <li>Integrated JWT authentication and Role-Based Access Control (RBAC) to improve system security.</li>
+            <li>Led migration from JavaScript to TypeScript, reducing runtime bugs by 30%.</li>
+            <li>Collaborated with UX/UI designers and DevOps teams to improve deployment speed via CI/CD (GitHub
+              Actions).</li>
+            <li>Mentored 2 junior developers in front-end best practices and version control using Git.</li>
+          </ul>
+          <hr class="thin">
+          <h3 class="company-name">Meta Liveshow — Bangkok, Thailand</h3>
+          <h4 class="role">Web Developer /
+            <span class="duration">( Jan 2020 - Dec 2021 )</span>
+          </h4>
+          <ul>
+            <li>Built responsive marketing websites using Next.js and Tailwind CSS, improving SEO performance by 40%.
+            </li>
+            <li>Created custom CMS integrations with Strapi and Firebase, allowing non-technical teams to update content
+              easily.</li>
+            <!-- <li>Integrated JWT authentication and Role-Based Access Control (RBAC) to improve system security.</li>
+            <li>Developed reusable components and internal UI libraries, speeding up project delivery by 25%.</li>
+            <li>Implemented analytics and A/B testing scripts to measure campaign performance.</li> -->
+          </ul>
+        </div>
+        <div class="education">
+          <h3>Education</h3>
+          <hr class="thick">
+          <h4>Thai General University</h4>
+          <h4 class="role">Bachelor’s degree in Accounting</h4>
+          <p>2015 - 2019</p>
+          <ul>
+            <li>Focused on financial systems and data management.</li>
+            <li>Transitioned to software development through online courses and bootcamps.</li>
+          </ul>
+          <hr class="thin">
+          <h4>Codecamp Thailand</h4>
+          <h4 class="role">Certificate in Full-Stack Web Development Bootcamp</h4>
+          <p>Sep 2019 - Dec 2019</p>
+          <ul>
+            <li>Built real-world projects using React, Node.js</li>
+          </ul>
 
-<footer>
-	<div class='container'>
-		<p class='copyright'>&copy; 2025 by Jenny Codecamp.</p>
-		<div class='contact'>
-			<i class="fa-brands fa-facebook-f"></i>
-			<i class="fa-brands fa-twitter"></i>
-			<i class="fa-brands fa-instagram"></i>
-			<i class="fa-brands fa-vimeo-v"></i>
-			<i class="fa-brands fa-youtube"></i>
-		</div>
-	</div>
-</footer>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class='container'>
+      <p class='copyright'>&copy; 2025 by Jenny Codecamp.</p>
+      <div class='contact'>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-vimeo-v"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
