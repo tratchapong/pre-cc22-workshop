@@ -201,11 +201,10 @@ hr.thin {
   margin-block : 8px;
 }
 
-
 .work-exp {
   display: grid;
   gap : 8px;
-  /* padding-inline: 16px; */
+  padding-inline: 32px;
 }
 
 .role{
@@ -222,18 +221,21 @@ hr.thin {
 
 #page2 li {
   line-height: 1.4;
+  font-size: smaller;
 }
 
 .education {
   background-color: aliceblue;
   padding: 8px;
-  padding-left: 8px;
+  padding-left: 16px;
 }
 
 .education > * {
   margin-block : 8px;
 }
 
+
+/* responsive for phone */
 @media(max-width: 800px) {
   header {
     height: 10%;
