@@ -240,6 +240,7 @@ hr.thin {
     background-color: aliceblue;
     grid-template-columns: 1fr; 
   }
+  
   .name {
     place-self: center;
     text-align: center;
@@ -270,6 +271,7 @@ hr.thin {
   .right {
     padding-top: 8px;
     text-align: center;
+    font-size: large;
   }
   .right hr {
     display: none;
@@ -282,6 +284,11 @@ hr.thin {
   .skill-list {
     margin: 8px auto;
   }
+
+  .skill-list button {
+    font-size: large;
+  }
+
   #page2 {
     margin-top: 16px;
     font-size: smaller;
@@ -292,15 +299,24 @@ hr.thin {
     text-align: center;
   }
   #page2 hr {
-    margin: auto;
+    margin: 8px auto;
+  }
+  .company-name{
+    font-size: large;
+  }
+  .role {
+    font-size: large;
   }
   #page2 ul {
     text-align: left;
     list-style: none;
+    padding: 4px 20px;
+    gap: 10px;
   }
   #page2 li {
     padding-left: 20px;
-    gap: 8px;
+    font-size: large;
+    /* text-align: justify; */
   }
   #page2 li:nth-child(even){
     color: slateblue;
