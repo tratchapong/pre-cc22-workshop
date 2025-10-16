@@ -204,7 +204,7 @@ hr.thin {
 .work-exp {
   display: grid;
   gap : 8px;
-  padding-inline: 32px;
+  padding-inline: 24px;
 }
 
 .role{
@@ -274,6 +274,7 @@ hr.thin {
   }
   .right {
     padding-top: 8px;
+    padding-left: 0;
     text-align: center;
     font-size: large;
   }
@@ -284,6 +285,7 @@ hr.thin {
   .right p {
     margin: 8px auto;
     font-size: large;
+    width: 90%;
   }
 
   .skill-list {
@@ -311,20 +313,24 @@ hr.thin {
   }
   .role {
     font-size: large;
+    margin-bottom: 0;
   }
   .duration {
     display: block;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: tomato;
   }
   #page2 ul {
     text-align: left;
     list-style: none;
-
+    padding: 0;
     gap: 32px;
   }
   #page2 li {
-    padding-left: 20px;
     font-size: large;
     /* text-align: justify; */
+    
   }
   #page2 li:nth-child(even){
     color: slateblue;
@@ -332,6 +338,7 @@ hr.thin {
 
   .education {
     font-size: large;
+    padding-bottom: 8px;
   }
 
   footer {
