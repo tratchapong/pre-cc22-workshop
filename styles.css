@@ -204,6 +204,7 @@ hr.thin {
 .work-exp {
   display: grid;
   gap : 8px;
+  /* padding-inline: 16px; */
 }
 
 .role{
@@ -308,6 +309,9 @@ hr.thin {
   .role {
     font-size: large;
   }
+  .duration {
+    display: block;
+  }
   #page2 ul {
     text-align: left;
     list-style: none;
@@ -332,11 +336,12 @@ hr.thin {
     background-color: aliceblue;
     border: 1px solid #eee;
   }
+
   .copyright {
     display: none;
-    padding-bottom: 0;
-    
+    padding-bottom: 0;  
   }
+
   .contact {
     place-self: center;
     font-size: 32px;
