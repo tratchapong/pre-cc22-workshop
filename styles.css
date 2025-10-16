@@ -121,7 +121,8 @@ main {
 }
 
 .right p {
-  font-size: smaller;
+  /* font-size: smaller; */
+  color: #555;
   width: 80%;
   margin-bottom: 24px;
 }
@@ -325,6 +326,10 @@ hr.thin {
   }
   #page2 li:nth-child(even){
     color: slateblue;
+  }
+
+  .education {
+    font-size: large;
   }
 
   footer {
